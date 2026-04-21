@@ -1,0 +1,4 @@
+## 第一天
+day1coding主要是调用大模型api的尝试,  
+在.env文件中把OPENAI_API_KEY和OPENAI_BASE_URL存起来，一个是自己使用的大模型密钥，一个是代理商地址
+代码在day1coding中直接运行

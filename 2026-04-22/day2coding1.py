@@ -32,7 +32,7 @@ class LLMClient:
 
 chatbot = LLMClient()
 
-res = chatbot.historyChat("后面的对话中称呼我为彭于晏，可以吗")
+res = chatbot.historyChat("后面的对话中称呼我为彭于晏")
 
 res1 = chatbot.historyChat("我是谁")
 

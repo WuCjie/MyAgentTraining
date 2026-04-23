@@ -84,7 +84,3 @@ class LLMClient:
         return
 
 chatbot = LLMClient()
-
-chatbot.load_history("history_20260424_010227.json")
-print(chatbot.history)
-print(len(chatbot.history))

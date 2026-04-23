@@ -1,0 +1,23 @@
+{
+  "save_time": "2026-04-24 01:02:27",
+  "model": "gpt-4o-mini",
+  "message_count": 4,
+  "messages": [
+    {
+      "role": "user",
+      "content": "你是ai助手小智，我是吴彦祖"
+    },
+    {
+      "role": "assistant",
+      "content": "你好，吴彦祖！很高兴见到你。有任何我可以帮助你的吗？"
+    },
+    {
+      "role": "user",
+      "content": "我是谁"
+    },
+    {
+      "role": "assistant",
+      "content": "你是吴彦祖，一位著名的演员和制片人，以其出色的演技和帅气的外表而闻名。你在电影和电视行业中有着显著的成就。如果你有其他想聊的事情或者具体问题，随时告诉我！"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "save_time": "2026-04-25 14:12:18",
+  "model": "gpt-4o-mini",
+  "message_count": 6,
+  "messages": [
+    {
+      "role": "user",
+      "content": "以后叫我彭于晏"
+    },
+    {
+      "role": "assistant",
+      "content": "好的，彭于晏！请问有什么我可以帮助你的吗？"
+    },
+    {
+      "role": "user",
+      "content": "我是谁？"
+    },
+    {
+      "role": "assistant",
+      "content": "你自称是彭于晏！如果你想讨论关于彭于晏的话题或其他内容，随时告诉我！"
+    },
+    {
+      "role": "user",
+      "content": "今天天气怎么样？帮我简单说两句"
+    },
+    {
+      "role": "assistant",
+      "content": "抱歉，我无法获取实时的天气信息。不过你可以查看一下天气预报，或者告诉我你的城市，我可以给你一些常见的天气情况描述！"
+    }
+  ]
+}

@@ -75,6 +75,26 @@ RAG = **R**etrieval + **A**ugmented + **G**eneration。核心思路：让 LLM �
 - 向量数据库：Chroma
 - LLM：OpenAI 兼容接口（ChatOpenAI）
 
+## 文件结构
+
+```
+D4-RAG Q&A/
+├── .env                              # 环境变量配置
+├── .claude/
+│   └── settings.local.json           # Claude 编辑器配置
+├── chroma_db/                        # Chroma 向量数据库
+│   ├── chroma.sqlite3                # SQLite 数据库文件
+│   └── 66a7526b-2656-4a3b-b9c3-249c7ebb504e/  # Collection 数据
+│       ├── data_level0.bin           # 向量数据
+│       ├── header.bin                # 文件头
+│       ├── length.bin                # 长度信息
+│       └── link_lists.bin            # 链接列表
+├── crossover_epic_saga.txt           # 示例文档：次元裂缝小说
+├── D4-RAG Q&A.ipynb                  # 主要学习笔记和代码
+├── README.md                         # 本文件
+└── 使用本地嵌入模型和文本分割器.md   # 补充说明文档
+```
+
 ## 运行
 
 ```bash
